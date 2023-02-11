@@ -1,0 +1,107 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.todoId {
+    float: right;
+    text-align: right;
+    width: 100%;
+}
+
+.todo {
+    font-family: Tahoma;
+    font-size: 16px;
+    margin: 2px;
+}
+
+.bg-secondary {
+    min-height: 100%;
+    max-width: 25%;
+}
+
+.avatar {
+    text-decoration: none;
+    margin: 4px;
+    width: auto;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.edit {
+    color: green;
+}
+
+.delete {
+    color: teal;
+}
+
+table {
+    margin-top: 4px;
+    border: 1px solid teal;
+    width: 100%;
+}
+
+table thead {
+    background-color: bisque;
+}
+
+table td {
+    background-color: lightgray;
+}
+
+table tfoot {
+    font-size: 9px;
+    background-color: lightgray;
+    color: black;
+}
+
+.todo-header-text {
+    color: black;
+    font-size: 22px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table tr {
+    margin: 4px;
+    padding: 4px;
+}
+
+label {
+    min-width: 20px;
+    padding: 4px;
+}
+
+.isActiveStatus {
+    margin-left: 3px;
+    font-size: 11px;
+    height: auto;
+    align-self: center;
+    float: right;
+    color: black;
+}
+
+.isInActiveStatus {
+    margin-left: 3px;
+    font-size: 11px;
+    height: auto;
+    align-self: center;
+    float: right;
+    color: teal;
+}
+
+.isTodoActiveStatus {
+    text-align: center;
+    font-weight: lighter;
+    font-style: italic;
+    color: black;
+}
+
+.isTodoInActiveStatus {
+    text-align: center;
+    color: gray;
+    font-weight: lighter;
+    font-style: italic;
+}
